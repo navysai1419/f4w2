@@ -1,4 +1,6 @@
 {
+  "homepage": "https://navysai1419.github.io/my-auth-app",
+
   "name": "my-auth-app",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -35,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
